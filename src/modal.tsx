@@ -751,7 +751,7 @@ export class ReactNativeModal extends React.Component<ModalProps, State> {
 
     return (
       <Modal
-        transparent={true}
+        transparent={false}
         animationType={'none'}
         visible={this.state.isVisible}
         onRequestClose={onBackButtonPress}
